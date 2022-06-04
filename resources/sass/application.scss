@@ -1,0 +1,128 @@
+body{
+    color: #1C334D;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.main{
+    flex-grow: 1;
+    background: #fff;
+    padding: 20px 0;
+}
+.application-title-main{
+    margin: 20px 0;
+    text-align: center;
+}
+.application-main{
+    text-align: center;
+}
+.application-order{
+    margin-top: 20px;
+}
+.btn-primary-paid{
+    margin: 0 auto;
+    margin: 30px 0;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    background: #F1902F;
+    padding: 8px 40px;
+}
+
+.sheet-block {
+    width: 40%;
+    margin: 0 auto ;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    /* padding-bottom: 20px; */
+    padding: 20px;
+    
+}
+
+.sheet-block h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.sheet-block canvas {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #000;
+    padding: 5px;
+}
+
+.left-sheet div span:first-child {
+    font-weight: 600;
+}
+
+.right-sheet {
+    text-align: center;
+   /* border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: #F8F9F9; */
+}
+
+.right-sheet div:first-child {
+    font-weight: 600;
+}
+
+.right-sheet .addr, .addrReadonly {
+    font-size: 0.8em;
+    background-color: #ddd;
+    border: 1px solid grey;
+    padding: 3px 7px;
+    margin-bottom: 5px;
+    display: block;
+    border-radius: 3px;
+    position: relative; 
+    text-align: center;
+    width: 100%;
+}
+.addr::after{
+    content: 'Copy';
+    position: absolute;
+    top: 0;
+    right: 2px;
+    font-size: 9px;
+
+}
+
+.bottom-sheet {
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    margin-top: 15px;
+    font-size: 0.95em;
+    text-align: left;
+}
+
+.bottom-sheet div span:first-child {
+    font-weight: 600;
+}
+.link-order{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.word_wrap{
+    word-wrap: break-word;
+    width: 100%;
+}
+.appl_center_block{
+    display: flex;
+    justify-content: center;
+}
+.copied {
+    position: absolute;
+    top: -2px;
+    right: 15px;
+    background-color: #1781AA;
+    padding: 0 5px;
+    border-radius: 3px;
+    margin-bottom: 2px;
+    display: none;
+    color: #fff;
+    text-align: center;
+}

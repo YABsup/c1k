@@ -1,0 +1,114 @@
+footer {
+    background-color: #0b1231;
+}
+
+footer h4 {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.footer-wrap {
+    place-content: center;
+    padding: 40px 15px;
+    border-top: 1px solid #e9e9e9;
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-wrap a {
+    opacity: 0.5;
+    font-family: MuseoSansCyrl;
+    font-size: 15px;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+
+.footer-soc_icons .copiright {
+    opacity: 0.5;
+    font-family: MuseoSansCyrl;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.soc_icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.soc_icons .soc_icon {
+    width: 30.6px;
+    height: 30.5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    padding: 6px 2px 0 0;
+    margin: 9px 5px 20px;
+}
+
+.soc_icons .soc_icon a {
+    display: block;
+}
+
+.soc_icons .soc_icon+.soc_icon {
+    padding: 6px 1px 0 0;
+}
+
+.soc_icons .soc_icon+.soc_icon+.soc_icon {
+    padding: 7px 0px 0 0px;
+}
+
+.footer-block {
+    margin: 20px 20px;
+}
+
+.footer-work_time-list, .footer-menu-list, .footer-info-list, .footer-contacts-list {
+    margin-top: 17px;
+}
+
+.footer-work_time-list a, .footer-menu-list a, .footer-info-list a, .footer-contacts-list a {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-contacts-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contacts-list-item {
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 13px;
+}
+
+.contacts-list-item a {
+    padding-bottom: 0;
+}
+
+.footer-contacts .contacts-list-img {
+    width: 24.6px;
+    height: 24.6px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+.footer-contacts .contacts-list-img img {
+    vertical-align: sub;
+}
+
+@media only screen and (max-width: 992px) {
+    .footer-wrap {
+        justify-content: center;
+    }
+}

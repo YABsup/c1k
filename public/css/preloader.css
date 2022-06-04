@@ -1,0 +1,45 @@
+#p_prldr {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #26415A;
+  z-index: 30;
+}
+
+.exchange-refresh_preloader {
+  fill: #ffffff;
+  width: 20%;
+  position: absolute;
+  top: 48%;
+  left: 42%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+
+#preloader_logo_k {
+  -webkit-animation: refresh_preloader 4s ease infinite;
+          animation: refresh_preloader 4s ease infinite;
+}
+
+@-webkit-keyframes refresh_preloader {
+  from {
+    background-color: white;
+  }
+
+  to {
+    background-color: black;
+  }
+}
+
+@keyframes refresh_preloader {
+  from {
+    background-color: white;
+  }
+
+  to {
+    background-color: black;
+  }
+}
+

@@ -1,0 +1,239 @@
+.account {
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+}
+
+.account-sidebar {
+  width: 20%;
+}
+
+.account-sidebar-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.account-sidebar-menu-link {
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid #306088;
+  background: #306088;
+  color: #fff;
+  padding: 8px;
+  max-width: 150px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.exit-link {
+  background: #143551 !important;
+  border: 1px solid #143551 !important;
+}
+
+.account-sidebar-menu-link:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.account-main {
+  width: 80%;
+}
+
+.account-profile {
+  width: 70%;
+}
+
+.account-main-statistic {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.account-title {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.table-info-person-header {
+  text-align: center;
+}
+
+.table-info-person-title {
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+
+.table-scroll-wrapper-account {
+  display: block;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.table-info-person-body-wrapper {
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+  font-size: 14px;
+  border: 1px solid #306088;
+}
+
+.table-info-person-body {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  width: 100%;
+  font-size: 13px;
+}
+
+.table-info-person-text {
+  width: 100%;
+}
+
+.table-info-person-value {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.table-info-person-value-cur {
+  margin-left: 5px;
+}
+
+.account-reference-link {
+  padding: 40px 0;
+}
+
+.account-reference-link-title {
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.account-reference-link-addres {
+  text-align: center;
+  position: relative;
+}
+
+.account-reference-link-addres-copy {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #306088;
+  padding: 6px 14px;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 4px;
+  display: none;
+}
+
+.account-reference-link-addres input {
+  width: 100%;
+  background: #dbdbdb;
+  color: #02070e;
+  padding: 20px;
+  border: 0;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.account-table-info-person {
+  width: 100%;
+}
+
+/* Account withdraw */
+
+.account-withdraw-title {
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+.account_withdraw {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.account_withdraw_block {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-bottom: 15px;
+}
+
+.btn-primary-save {
+  background-color: #306088;
+  margin: 20px auto 20px;
+  display: block;
+  padding: 4px 35px;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.72px;
+  line-height: 38px;
+  text-align: center;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.table-scroll-wrapper {
+  display: block;
+  max-height: 400px;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.msg-min_max_value {
+  display: none;
+  color: #306088;
+  text-align: center;
+  font-size: 18px;
+}
+
+.account_min_value {
+  font-weight: 800;
+}
+
+.account_max_value {
+  font-weight: 800;
+}
+
+.msg-min_max_value p {
+  margin-bottom: 0;
+}
+
+/* Change Password */
+
+.change_password_oldpass {
+  text-align: center;
+  color: red;
+}
+
+.change_password_newpass {
+  display: none;
+  text-align: center;
+  color: red;
+  padding-top: 10px;
+}
+
+.change_password_newpassconfirm {
+  display: none;
+  text-align: center;
+  color: red;
+  padding-top: 10px;
+}
+
+.change_update_newpassword {
+  display: none;
+  text-align: center;
+  color: #306088;
+  padding-top: 10px;
+}
+
+.postn_msg {
+  width: 100%;
+}
+

@@ -1,0 +1,120 @@
+body{
+  color: #1C334D;
+}
+.main{
+  background: #fff;
+}
+.row_magrin_z{
+  margin: 0;
+}
+.hidden_block_exhange{
+  display: none;
+}
+.change-text-title {
+  text-align: center;
+  padding-top: 40px;
+}
+#orderform-sell_currency_id {
+  text-align: center;
+}
+.custom-radio {
+  white-space: normal;
+  width: 120px;
+}
+.custom-radio img {
+  width: 35px;
+  height: 35px;
+}
+.custom-radio input[type="radio"] {
+  display: none;
+}
+.checked {
+  border: 1px solid black;
+}
+.personal_data {
+  font-size: 20px;
+}
+.change-text-left {
+  line-height: 40px;
+}
+.change-text-condition {
+  text-align: center;
+}
+.change-text-title-data {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.change-text-data {
+  line-height: 40px;
+  
+}
+.change-text-title-person {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-family: 'Proxima Nova Condensed Semibold';
+}
+.text-person_data {
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.button-change-form {
+  padding: 5px 60px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.orderform-rules {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 7px;
+}
+.orderform-rules .form-check-label {
+  text-align: center;
+}
+.orderform-rules .hint-block {
+  text-align: center;
+  width: 290px;
+  margin: 0 auto;
+  font-size: 14px;
+  color: #B1B0B0;
+}
+.exchange_mgs_mis{
+  display: none;
+  position: absolute;
+  top: 5px;
+  right: -80px;
+}
+.postn_msg{
+  width: 100%
+}
+
+.msg-filling-some-field{
+  display: none;
+  position: absolute;
+  bottom: 550px;
+  right: 33px;
+  border-radius: 10px;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #ced4da;
+  width: 340px;
+  text-align: center;
+}
+.msg-filling-some-field::before{
+  content: '';
+  position: absolute;
+  top: 28px;
+  left: -17px;
+  border: 8px solid transparent;
+  border-right: 8px solid #ced4da;
+}
+
+.exchange_recaptcha{
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,397 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  background: #fff;
+  flex-grow: 1;
+}
+
+/* Login forms */
+
+.modal-dialog-main {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 20px 0;
+  position: relative;
+  width: auto;
+}
+
+.modal-content_login {
+  border-radius: 20px;
+}
+
+.model_title_login {
+  color: #306088;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: none;
+}
+
+.email_login,
+.password_login {
+  position: relative;
+}
+
+.label_login {
+  font-size: 12px;
+  color: #b8b8b8;
+  font-style: normal;
+  position: absolute;
+  top: 28px;
+  left: 10px;
+  right: 0;
+  border: 0;
+  text-transform: none;
+}
+
+.form_control-login {
+  padding: 28px 12px 2px;
+  color: #3a3a3a;
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 0.56px;
+  display: block;
+  width: 100%;
+  line-height: 1.5;
+  background-clip: padding-box;
+  border: none;
+  border-bottom: 1px solid #ced4da;
+  border-radius: 0;
+}
+
+.form_control-login:focus {
+  border-bottom: 2px solid #306088;
+}
+
+.check_label {
+  color: #b8b8b8;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.72px;
+  text-transform: none;
+  text-align: left;
+}
+
+.check-label-fog {
+  color: #b8b8b8;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.72px;
+  text-transform: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.btn-primary-login {
+  background-color: #306088;
+  margin: 20px auto 20px;
+  display: block;
+  padding: 8px 50px;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.72px;
+  line-height: 38px;
+  text-align: center;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.btn-primary-login:hover {
+  background-color: #4583b7;
+}
+
+.modal-footer_login {
+  display: flex;
+  flex-direction: column;
+  padding: 10px !important;
+}
+
+.btn-login-fs {
+  background-color: #335b9b;
+  margin: 15px auto 0;
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.72px;
+  line-height: 38px;
+  text-align: center;
+}
+
+.btn-login-tw {
+  background-color: #3abef1;
+  margin: 15px auto 0;
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.72px;
+  line-height: 38px;
+  text-align: center;
+}
+
+.modal-footer_login p {
+  color: #b8b8b8;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.72px;
+  text-transform: none;
+  margin: 15px 0;
+}
+
+.modal-footer_login p a {
+  color: #ff0000;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.72px;
+  text-transform: none;
+}
+
+/* Sign up form */
+
+.modal-body-signup {
+  margin-top: 15px;
+}
+
+.modal-content_signup,
+.modal-content_login {
+  border: 1px solid #306088;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.model_title_signup {
+  color: #306088;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: none;
+}
+
+.label-signup {
+  font-size: 12px;
+  color: #b8b8b8;
+  font-style: italic;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  right: 0;
+  border: 0;
+  text-transform: none;
+}
+
+.email_signup,
+.password_signup,
+.birth_signup,
+.phone_signup,
+.name_signup {
+  position: relative;
+}
+
+.email_signup {
+  margin-top: 15px;
+}
+
+.label_signup {
+  font-size: 12px;
+  color: #b8b8b8;
+  font-style: normal;
+  position: absolute;
+  top: 28px;
+  left: 10px;
+  right: 0;
+  border: 0;
+  text-transform: none;
+}
+
+.form_control-signup {
+  padding: 28px 12px 2px;
+  color: #3a3a3a;
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 0.56px;
+  display: block;
+  width: 100%;
+  line-height: 1.5;
+  background-clip: padding-box;
+  border: none;
+  border-bottom: 1px solid #ced4da;
+  border-radius: 0;
+}
+
+.form_control-signup:focus {
+  border-bottom: 2px solid #306088;
+}
+
+.form_control-signup .gender_signup {
+  position: relative;
+}
+
+.form-control-signup-gender {
+  height: 60px !important;
+  border-radius: 10px;
+  color: #3a3a3a;
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 0.56px;
+  padding: 22px 12px 15px;
+}
+
+.btn-primary-signup {
+  background-color: #306088;
+  margin: 20px auto 0;
+  display: block;
+  padding: 8px 19px;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.72px;
+  line-height: 38px;
+  text-align: center;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.btn-primary-signup:hover {
+  background-color: #4583b7;
+}
+
+/* Validation style */
+
+.input-border-invalid {
+  border-bottom: 1px solid red;
+}
+
+.input-invalid-request-password {
+  display: block;
+  text-align: center;
+  padding-bottom: 10px;
+  color: red;
+}
+
+.input-invalid-password {
+  display: none;
+  text-align: center;
+  padding-bottom: 10px;
+  color: red;
+}
+
+.input-invalid-password_confirm {
+  display: none;
+  text-align: center;
+  padding-bottom: 10px;
+  color: red;
+}
+
+.input-exist-email_phone {
+  display: block;
+  text-align: center;
+  padding-bottom: 10px;
+  color: red;
+}
+
+.msg-error-login {
+  text-align: center;
+  padding: 10px;
+  color: red;
+}
+
+.account_profile_errors {
+  text-align: center;
+  color: red;
+}
+
+/* end validation style */
+
+/* Signup_info */
+
+.signup_info {
+  padding: 20px;
+}
+
+.signup_info-header {
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.signup_info-text {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 30px 0;
+}
+
+.signup_info-button {
+  font-size: 16px;
+  text-align: center;
+  background: linear-gradient(0deg, #3d6891 0%, #3cb4e5 100%);
+  border: 0;
+  padding: 14px;
+  width: 170px;
+  color: #fff;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: block;
+}
+
+.signup_info-button:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Signup_info end */
+
+/* Forget password */
+
+.forget_password {
+  padding-bottom: 20px;
+}
+
+.forget_password_wrapper {
+  max-width: 450px;
+  margin: 0 auto;
+  position: relative;
+  width: auto;
+  border: 1px solid #306088;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.msg_forget_password {
+  display: none;
+  text-align: center;
+  color: #306088;
+}
+
+.msg_forget_password_not-exist {
+  display: none;
+  text-align: center;
+  color: #306088;
+}
+
+/* New password */
+
+.msg_new_password {
+  display: none;
+  text-align: center;
+  color: red;
+}
+
+.msg_new_password-confirm {
+  display: none;
+  text-align: center;
+  color: red;
+}
+

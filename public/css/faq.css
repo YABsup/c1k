@@ -1,0 +1,223 @@
+body {
+  color: #1C334D;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  background: #fff;
+  flex-grow: 1;
+}
+
+.faq-content {
+  /* padding: 35px; */
+  word-wrap: break-word;
+}
+
+.faq-content p {
+  font-family: "Proxima Nova Condensed Regular";
+  font-size: 20px;
+}
+
+.faq-page {
+  padding: 2.5px;
+}
+
+.faq-page h4 {
+  text-align: center;
+  font-family: "Proxima Nova Condensed Semibold";
+  font-size: 30px;
+}
+
+.part-program-content {
+  padding: 35px;
+}
+
+.part-program-content p {
+  font-family: "Proxima Nova Condensed Regular";
+  font-size: 20px;
+}
+
+.part-program-content h4 {
+  font-family: "Proxima Nova Condensed Semibold";
+  font-size: 30px;
+}
+
+.part-program-page {
+  padding: 2.5px;
+}
+
+.part-program-page h4 {
+  text-align: center;
+  font-family: "Proxima Nova Condensed Semibold";
+  font-size: 30px;
+}
+
+.rules-content {
+  padding: 35px;
+}
+
+.rules-content p {
+  font-family: "Proxima Nova Condensed Regular";
+  font-size: 20px;
+}
+
+.rules-content h4 {
+  font-family: "Proxima Nova Condensed Semibold";
+  font-size: 30px;
+}
+
+.rules-page {
+  padding: 2.5px;
+}
+
+.rules-page h4 {
+  text-align: center;
+  font-family: "Proxima Nova Condensed Semibold";
+  font-size: 30px;
+}
+
+.security-content {
+  padding: 35px;
+}
+
+.security-content p {
+  font-family: "Proxima Nova Condensed Regular";
+  font-size: 20px;
+}
+
+.security-content h4 {
+  font-family: "Proxima Nova Condensed Semibold";
+  font-size: 30px;
+}
+
+.security-page {
+  padding: 2.5px;
+}
+
+.security-page h4 {
+  text-align: center;
+  font-family: "Proxima Nova Condensed Semibold";
+  font-size: 30px;
+}
+
+.agreement-content {
+  padding: 35px;
+}
+
+.agreement-content p {
+  font-family: "Proxima Nova Condensed Regular";
+  font-size: 20px;
+}
+
+.agreement-content h4 {
+  font-family: "Proxima Nova Condensed Semibold";
+  font-size: 30px;
+}
+
+.agreement-content h2 {
+  font-family: "Proxima Nova Condensed Semibold";
+  font-size: 36px;
+}
+
+.agreement-page {
+  padding: 2.5px;
+}
+
+.agreement-page h4 {
+  text-align: center;
+  font-family: "Proxima Nova Condensed Semibold";
+  font-size: 30px;
+}
+
+.partners-content {
+  padding: 35px;
+}
+
+.partners-content p {
+  font-family: "Proxima Nova Condensed Regular";
+  font-size: 20px;
+}
+
+.partners-content h4 {
+  font-family: "Proxima Nova Condensed Semibold";
+  font-size: 30px;
+}
+
+.partners-page {
+  padding: 2.5px;
+}
+
+.partners-page h4 {
+  text-align: center;
+  font-family: "Proxima Nova Condensed Semibold";
+  font-size: 30px;
+}
+
+/* Review */
+
+.reviews-page h4 {
+  text-align: center;
+  font-family: "Proxima Nova Condensed Semibold";
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.title__noreviews {
+  padding-left: 15px;
+  margin: 10px 0;
+}
+
+.reviews-content blockquote {
+  padding: 12px 20px 5px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: 5px solid #eee;
+}
+
+.reviews-content blockquote h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.reviews-content blockquote .review_text_data {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+}
+
+.reviews-content blockquote .main__review_text {
+  font-size: 20px;
+  font-family: "Proxima Nova Condensed Semibold";
+}
+
+.reviews__title {
+  text-align: center;
+}
+
+/* Block review */
+
+.addReadMore.showlesscontent .SecSec,
+.addReadMore.showlesscontent .readLess {
+  display: none;
+}
+
+.addReadMore.showmorecontent .readMore {
+  display: none;
+}
+
+.addReadMore .readMore,
+.addReadMore .readLess {
+  font-weight: bold;
+  margin-left: 2px;
+  color: blue;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.addReadMoreWrapTxt.showmorecontent .SecSec,
+.addReadMoreWrapTxt.showmorecontent .readLess {
+  display: block;
+}
+

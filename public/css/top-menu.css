@@ -1,0 +1,208 @@
+.top-menu {
+    /* height: 42px; */
+    margin: 36px 0 36px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    place-content: center;
+    position: relative;
+}
+
+.top-menu-links .login,
+.top-menu-links .reg{
+    display: none;
+}
+
+.top-menu-links {
+    /* opacity: 0.5; */
+    font-family: MuseoSansCyrl;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.top-menu-login .nav-login {
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+}
+
+.language {
+    font-size: 12px;
+    margin-left: 45px;
+}
+
+.lang_ico {
+    width: 20px;
+    height: 20px;
+}
+
+.lang_abc {
+    padding-bottom: 3px;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    text-transform: uppercase;
+}
+
+.top-menu-mobile_btn {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#top-menu-mobile, .top-menu-mobile_btn {
+    display: none;
+}
+
+#top-menu-mobile:checked+.top-menu-mobile_btn+.top-menu-links {
+    display: block;
+}
+
+#top-menu-mobile+label span, #top-menu-mobile+label span::before, #top-menu-mobile+label span::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -2px;
+    margin-left: -15px;
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+}
+
+#top-menu-mobile+label span::before, #top-menu-mobile+label span::after {
+    content: '';
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+#top-menu-mobile+label span::before {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+}
+
+#top-menu-mobile+label span::after {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+}
+
+#top-menu-mobile+.modile-menu_btn-active span {
+    height: 0;
+}
+
+#top-menu-mobile+.modile-menu_btn-active span::before {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#top-menu-mobile+.modile-menu_btn-active span::after {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.top-menu-links a {
+    opacity: 0.5;
+}
+
+.top-menu-links a.btn {
+    opacity: 1;
+}
+
+.top-menu-lang {
+    /* padding: 14px; */
+    font-family: MuseoSansCyrl;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.1px;
+    color: #ffffff;
+
+    opacity: 0.5;
+    display: block;
+    padding: 0.5rem 1rem;
+
+}
+
+.top-menu-login img {
+    margin-right: 8px;
+}
+
+.top-menu-register {
+    padding: 2px
+}
+
+/* .top-menu-lang form select option[value="ru"] {
+    background-image: url(/img/ru.svg);
+}
+
+.top-menu-lang form select option[value="ua"] {
+    background-image: url(/img/ru.svg);
+}
+
+.top-menu-lang select option[value="others"] {
+    background-image: url(/img/ru.svg);
+}
+
+.top-menu-lang select option[value="others"] {
+    background-image: url(/img/ru.svg);
+} */
+
+@media only screen and (max-width: 992px) {
+    .top-menu-links {
+        order: 1;
+    }
+    .top-menu-links {
+        display: none;
+        /* position: absolute;
+        left: -813px;
+        top: 67px; */
+        background-color: #0b1231;
+        z-index: 0;
+        width: 93vw;
+        text-align: left;
+    }
+    .top-menu-links .nav-menu{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .top-menu {
+        padding: 9px 0;
+        margin-top: 0px;
+        background-color: #0b1231;
+        border-bottom: 1px solid #374063;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .top-menu-mobile_btn {
+        display: block;
+        order: 1;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .language {
+        display: none;
+    }
+    .top-menu-logo,
+    .top-menu-links,
+    .top-menu-login{
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+.top-menu-login{
+    display: none;
+}
+
+.top-menu-links .login,
+.top-menu-links .reg{
+    display: block;
+}
+}

@@ -1,0 +1,244 @@
+body{
+  color: #ffffff;
+  background-color: #0d1539;
+  font-family: MuseoSansCyrl;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+a{
+  color: #ffffff;
+}
+a:hover{
+  color: #ffffff;
+}
+a:active{
+  color: #ffffff;
+}
+
+.c1k_main {
+  width: 100%;
+  /*background-color: #0b1231; */
+}
+
+.c1k_main .Bg{
+  place-content: center;
+  height: 50px;
+  /* background-color: #0d1539; */
+  opacity: 0.5;
+  font-size: 13px;
+  font-weight: 500;
+  padding-top: 17px;
+}
+
+
+.c1k_main .news{
+  height: 619px;
+  /* background-color: #0d1539; */
+}
+
+.c1k_main .calc{
+  place-content: center;
+}
+
+.c1k_main .news h3{
+  font-size: 36px;
+  color: #ffffff;
+
+  margin-bottom: 52px;
+}
+.c1k_main .news h4{
+  font-family: MuseoSansCyrl;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.33;
+}
+
+.c1k_main .news .article{
+  font-family: MuseoSansCyrl;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.Fill-1 {
+  width: 555.8px;
+  height: 697.2px;
+  background-image: linear-gradient(to right, #495884, #526d9b 14%, #618fbe 39%, #6ca7d8 62%, #73b6e8 83%, #75bbed);
+}
+
+.Fill {
+  width: 371px;
+  /* height: 811px; */
+  box-shadow: 0 2px 40px 0 rgba(117, 187, 237, 0.25);
+  background-color: #0d1539;
+  text-align: left;
+  margin: 7px;
+  z-index: 10;
+  border-radius: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 20px;
+}
+
+.Fill .input{
+  width: 339px;
+  height: 52px;
+  border: solid 1px #374063;
+  background-color: #141e46;
+  color: #ffffff;
+  font-family: MuseoSansCyrl;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 14px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+input{
+  color: #ffffff;
+  font-family: MuseoSansCyrl;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  background: transparent;
+  border: none;
+
+}
+
+select{
+  background: transparent;
+  border: none;
+  width: 100%;
+  color: white;
+}
+option {
+  background-color: #141e46;;
+  border: none;
+  color: white;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+*:focus {
+  outline: none;
+}
+.c1k_main h3{
+  font-size: 36px;
+  font-weight: 300;
+  padding-top: 20px;
+  padding-left: 16px;
+}
+.Group-3 {
+  width: 696px;
+  height: 698px;
+  object-fit: contain;
+  mix-blend-mode: hard-light;
+}
+
+.left_back{
+  width: 555.8px;
+  height: 697.2px;
+  background-image: url(/img/group-3.svg);
+  mix-blend-mode: hard-light;
+  z-index: 5;
+}
+.right_back{
+  width: 555.8px;
+  height: 697.2px;
+  background-image: url(/img/fill-1.svg);
+  mix-blend-mode: hard-light;
+}
+
+.Oval-4 {
+  width: 25.6px;
+  height: 25.6px;
+  opacity: 0.3;
+  background-color: #ffffff;
+}
+
+.round-div{
+  height: 39px;
+  min-width: 39px;
+  border: solid 1px #374063;
+  background-color: #141e46;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: -0.08px;
+  border-radius: 7px;
+  padding: 12px;
+  margin: 16px;
+  /*border-color: #d8dadc;*/
+}
+.round-div-active{
+  min-width: 41px;
+  height: 41px;
+  background-color: #254c8c;
+  font-family: MuseoSansCyrl;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: -0.08px;
+  border-radius: 7px;
+  padding: 12px;
+  margin: 16px;
+}
+
+
+.account_card__background {
+  width: 250px;
+  height: 118px;
+  border-radius: 2px;
+  box-shadow: 0 2px 40px 0 rgba(117, 187, 237, 0.25);
+  background-color: #2a679d;
+}
+
+.total-exchange-value{
+font-family: MuseoSansCyrl;
+font-size: 32px;
+font-weight: 500;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+color: #ffffff;
+}
+
+.total-exchange-text{
+  font-family: MuseoSansCyrl;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.Fill-531 {
+  width: 100%;
+  height: 1px;
+  opacity: 0.5;
+  background-color: #ecf0f6;
+}

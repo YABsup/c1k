@@ -1,0 +1,40 @@
+body {
+  background: #3a607c url(/images/page-not-found-bg.jpg?1bfcf55dbff674505d10ba57313b0974) no-repeat;
+  background-size: 100%;
+}
+
+.page-not-found {
+  display: flex;
+  justify-content: center;
+}
+
+.page-not-found-text {
+  position: absolute;
+  top: 17%;
+  color: #fff;
+  font-size: 30px;
+}
+
+.page-not-found-mistake {
+  position: absolute;
+  top: 19%;
+  color: #fff;
+  font-size: 22rem;
+}
+
+.page-not-found-btn {
+  font-size: 16px;
+  text-align: center;
+  background: linear-gradient(0deg, #3d6891 0%, #3cb4e5 100%);
+  border: 0;
+  padding: 20px;
+  width: 200px;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  top: 64%;
+}
+

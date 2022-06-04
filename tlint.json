@@ -1,0 +1,29 @@
+{
+    "preset_": "laravel",
+    "disabled": [
+        "NoInlineVarDocs",
+        "RemoveLeadingSlashNamespaces",
+        "AlphabeticalImports",
+        "ClassThingsOrder",
+        "SpaceAfterSoleNotOperator",
+        "ConcatenationNoSpacing",
+        "ConcatenationSpacing",
+        "TrailingCommasOnArrays",
+        "NoCompact",
+        "MailableMethodsInBuild",
+        "NoDocBlocksForMigrationUpDown"
+    ],
+    "excluded": [
+        "tests/",
+        "vendor",
+        "nova/",
+        "nova/*",
+        "nova",
+        "stubs",
+        "resources",
+        "repositories",
+        "public",
+        "storage",
+        "database"
+    ]
+}

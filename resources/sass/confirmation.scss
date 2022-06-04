@@ -1,0 +1,38 @@
+body{
+    color: #fff;
+}
+.confirmation-title-main{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.confirmation-title{
+    display: flex;
+    justify-content: center;
+}
+.confirmation-info{
+    display: flex;
+}
+.up{
+    margin-top: 20px;
+}
+.left-side{
+    text-align: right;
+}
+.btn-back{
+    display: table;
+    text-align: right;
+}
+.green{
+    background: #1cbeca;
+    margin-bottom: 20px;
+}
+.change__icon{
+    margin: 0 10px;
+}
+.btn-conf{
+    margin: 20px 0;
+}
+.button-conf-back{
+    background: #1783AC;
+}

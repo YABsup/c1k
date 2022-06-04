@@ -1,0 +1,68 @@
+.qrcontacts{
+  margin-top: 49px;
+}
+.qrcontacts h3{
+  font-family: MuseoSansCyrl;
+  font-size: 36px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.qrcontacts .row{
+  place-content: center;
+}
+.qrcontacts .qrcodes{
+  width: 702px;
+  height: 344px;
+  background-color: #0d1539;
+  display: flex;
+  padding: 25px;
+}
+.qrcode{
+  width: 166px;
+  margin: 25px;
+}
+.qrcode .img{
+  height: 166px;
+  width: 166px;
+  background-color: #141e46;
+  padding: 13px;
+}
+.qrcode img{
+  height: 140px;
+  width: 140px;
+
+}
+.qrcode .title{
+  font-family: MuseoSansCyrl;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 25px;
+}
+.qrcode .link{
+  font-family: MuseoSansCyrl;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #ffffff;
+}
+.qrcontacts .youtube{
+  width: 701px;
+  height: 396px;
+  object-fit: contain;
+  border: none;
+}

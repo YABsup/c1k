@@ -1,0 +1,146 @@
+.qrcontacts {
+    margin-top: 49px;
+    place-content: center;
+    padding: 15px;
+    background-color: #0b1231;
+}
+
+.qrcontacts p {
+    font-size: 15px;
+    font-weight: 300;
+    opacity: 0.4;
+}
+
+.qrcontacts+.qrcontacts {
+    margin-top: 0;
+}
+
+.qrcontacts h3 {
+    font-family: MuseoSansCyrl;
+    font-size: 36px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 35px;
+}
+
+.qrcontacts .row {
+    place-content: center;
+}
+
+.qrcontacts .qrcodes {
+    width: 702px;
+    height: 344px;
+    background-color: #0d1539;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 25px;
+}
+
+.wrapper-qr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.wrapp-qr {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background-color: #0d1539;
+    padding: 10px 27px 30px;
+}
+
+.qrcode {
+    width: 166px;
+    margin: 25px;
+}
+
+.qrcode .img {
+    height: 166px;
+    width: 166px;
+    background-color: #141e46;
+    padding: 13px;
+}
+
+.qrcode img {
+    height: 140px;
+    width: 140px;
+}
+
+.qrcode .title {
+    font-family: MuseoSansCyrl;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 25px;
+    margin-bottom: 14px;
+}
+
+.qrcode .link {
+    font-family: MuseoSansCyrl;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.qrcontacts .youtube {
+    max-width: 701px;
+    width: 100%;
+    height: 396px;
+    /* width: 100%; */
+    max-height: 396px;
+    /* object-fit: contain; */
+    border: none;
+    margin-bottom: 35px;
+}
+
+@media only screen and (max-width: 390px) {
+    .qrcontacts {
+        margin: 0;
+        padding: 0;
+    }
+    .qrcontacts .youtube {
+        width: 95%;
+        height: 22vh;
+        margin-bottom: 50px;
+    }
+
+    .qrcontacts h3 {
+
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
+    .wrapp-qr{
+        background-color: transparent;
+    }
+}

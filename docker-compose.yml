@@ -1,0 +1,78 @@
+version: '2'
+services:
+  php:
+    build: .
+    container_name: php
+    depends_on:
+      - mysql
+    volumes:
+      - ".:/var/www:rw"
+      - "./tmp:/tmp"
+    environment:
+      - APP_NAME="C1K World"
+      - APP_ENV=local
+      - APP_KEY=base64:qAPTveVLndokuOOzyBeTRVZ5EYzVObYeM/Tqg8cAbu0=
+      - APP_DEBUG=true
+      - APP_URL=http://localhost:88
+
+      - SESSION_DRIVER=file
+      - SESSION_LIFETIME=120
+
+      - DB_CONNECTION=mysql
+      - DB_HOST=mysql
+      - DB_PORT=3306
+      - DB_USERNAME=c1kworld
+      - DB_DATABASE=c1kworld
+      - DB_PASSWORD=nja123+asdasd123fdfsapsdk124
+
+      - LOG_CHANNEL=stack
+    networks:
+      - backend
+    restart: always
+
+  mysql:
+    container_name: mysql
+    image: mysql:5.7
+    environment:
+      - MYSQL_ROOT_PASSWORD=snafu
+      - MYSQL_DATABASE=c1kworld
+      - MYSQL_USER=c1kworld
+      - MYSQL_PASSWORD=nja123+asdasd123fdfsapsdk124
+    networks:
+      - backend
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+    restart: always
+    volumes:
+      - ./mysql:/var/lib/mysql
+
+  nginx:
+    container_name: nginx
+    image: registry.k-3soft.com/c1k/nginx-fpm:master
+    links:
+      - php:php
+    depends_on:
+      - php
+    restart: always
+    networks:
+      - backend
+    ports:
+      - "88:8001"
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    depends_on:
+      - mysql
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOSTS=ysql
+    networks:
+      - backend
+    ports:
+      - "8080:80"
+    restart: always
+
+networks:
+  backend:

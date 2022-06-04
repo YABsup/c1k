@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+.c1k-overlay *, .c1k-overlay::after, .c1k-overlay::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1;
+
+}
+
+.c1k-overlay {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #fff;
+    background-color: #0d1539bf;
+    backdrop-filter: blur(2px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c1k-modal {
+    background: #182656;
+    border-radius: 20px;
+    max-width: 570px;
+    width: 100%;
+    min-height: 481px;
+    padding: 50px 15px 65px;
+}
+
+.c1k-modal__logo {
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.c1k-modal__logo img {
+    display: block;
+    width: 100%;
+}
+
+.c1k-modal__content {
+    max-width: 414px;
+    width: 100%;
+    margin: 0 auto;  
+}
+
+.c1k-modal__content--text {
+    line-height: 150%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.c1k-modal__content--text:last-of-type {
+    margin-bottom: 0;
+}
+
+.c1k-modal__content--action {
+    max-width: 265px;
+    width: 100%;
+    height: 50px;
+    margin: 70px auto 0;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #F33333;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease;
+}
+
+.c1k-modal__content--action:hover {
+    box-shadow: 0 0 3px black;;
+}
+
+
+@media (max-width: 425px) {
+    .c1k-modal {
+        min-height: fit-content;
+    }
+    .c1k-modal__logo {
+        margin-bottom: 50px;
+    }
+
+    .c1k-modal__content--action {
+        margin-top: 50px;
+    }
+}

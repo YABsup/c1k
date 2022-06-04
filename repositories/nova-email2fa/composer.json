@@ -1,0 +1,30 @@
+{
+    "name": "alogicprojects/nova-email2fa",
+    "description": "This package provides Email 2FA to Laravel Nova.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "2fa"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AlogicProjects\\Email2fa\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AlogicProjects\\Email2fa\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

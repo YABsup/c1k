@@ -1,0 +1,45 @@
+.top-menu{
+  height: 42px;
+  display: flex;
+  place-content: center;
+}
+.top-menu-links{
+  opacity: 0.5;
+  font-family: MuseoSansCyrl;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  padding: 14px;
+}
+
+.top-menu-links a{
+  margin: 14px;
+}
+
+.top-menu-lang{
+  padding: 14px;
+  font-family: MuseoSansCyrl;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.1px;
+  color: #ffffff;
+
+}
+.top-menu-login{
+      padding: 14px;
+}
+.top-menu-register{
+  padding: 2px
+}
+
+.top-menu-lang select option[value="ru"]   { background-image:url(/img/ru.svg);   }
+.top-menu-lang select option[value="ua"]   { background-image:url(/img/ru.svg);   }
+.top-menu-lang select option[value="others"]   { background-image:url(/img/ru.svg);   }
+.top-menu-lang select option[value="others"]   { background-image:url(/img/ru.svg);   }
